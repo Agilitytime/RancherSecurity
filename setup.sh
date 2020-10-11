@@ -60,6 +60,7 @@ ufw allow from 10.244.0.0/16 # in case we use the default cidr expected by the c
 ufw allow from 116.203.235.223/32
 ufw allow from 10.1.0.2/32
 ufw allow from 24.134.155.249/32
+ufw allow from 127.0.0.1/32
 
 ufw -f default deny incoming
 ufw -f default allow outgoing
